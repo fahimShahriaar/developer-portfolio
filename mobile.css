@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: block;
+}
+.left-nav{
+    /* border: 1px solid black; */
+    width: 100%;
+    text-align: center;
+}
+.right-nav{
+    /* border: 1px solid black; */
+    width: 100%;
+}
+.right-nav ul li{
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: #3f37c9;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
+.right-nav ul li:hover{
+    background-color: whitesmoke;
+}
+.right-nav ul li a{
+    color: white;
+}
+.right-nav ul li a:hover{
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+}
+
+.top-section, .about-section{
+    display: block;
+}
+.half-width{
+    width: 80%;
+}
+.skill-section{
+    display: block;
+}
+.skill-item{
+    width: 60%;
+    margin: 0 auto;
+}
+.skill-item h3{
+    padding-bottom: 15px;
+}
+.contact-section > *{
+    width: 50%;
+}
